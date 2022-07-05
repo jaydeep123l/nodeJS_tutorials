@@ -1,0 +1,10 @@
+const realLine_module = require('readline')
+const readline = realLine_module.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+readline.question(`What's your name?`, name => {
+  console.log(`Hi ${name}!`);
+  readline.close();
+});
