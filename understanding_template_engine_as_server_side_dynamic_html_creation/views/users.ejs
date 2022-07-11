@@ -1,0 +1,18 @@
+<html>
+    <title>
+        Users Page
+    </title>
+    <body>
+        <h2> Welcome to the users page, of the project being rendered using the ejs template engine...</h2>
+        <h2> and these html page is created dynamically using the users data object, at the server side..</h2>
+        <!-- As for injecting dynamic variable name, it's syntax is as <%= variable_name %> -->
+        <p><b>name :-</b> <%= user_object.name %></p>
+        <p><b>stack :-</b> <%= user_object.stack %></p>
+        <p><b>email :-</b> <%= user_object.email %></p>
+        <ul><b>hobbies :-</b> </ul>
+         <!-- In the same, iterating over a list and injecting the items, in a sequential manner so as.. -->
+        <% user_object.hobbies.forEach(hobby => { %>
+            <li> <%= hobby %></li>
+        <% }) %>
+    </body>
+</html>
