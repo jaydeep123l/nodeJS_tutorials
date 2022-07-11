@@ -1,0 +1,17 @@
+{
+  "name": "understanding_template_engine_as_server_side_dynamic_html_creation",
+  "version": "1.0.0",
+  "description": "understanding template engine as server side dynamic rendering, and how html creation is done using the template file and data object, and finally returning the dynamically created html file...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
