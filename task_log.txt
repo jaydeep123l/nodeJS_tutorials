@@ -1,0 +1,53 @@
+05-07-2022 ======
+    Going through the import/export in nodejs, creating a custom math package with specific functions and executing the function by passing command line argument, as from the standard input....
+
+06-07-2022 ======
+    Going through, how video file are being streamed / processed in nodeJS, and the stream and chunks in which the partial video data is returned.. and various types of streams 
+
+
+07-07-2022 ====== 
+    exploring express framework and express-validator, 
+    EventEmitter == 
+        creating custom event, and registering event hadlers for the same , also registering multiple event hadlers for a specific event and node executes them one after the other, in the sequence they are being defined...
+        and also passing parameters to the eventHandler..
+    reading from a sreams, writing to a sream and the piping and chaining it the streams, and raising heap-reached out of limit error as well handling it using streams and buffer / chunks..
+
+
+08-07-2022 =======
+    As told by Yogesh sir, developing a web app calculator with basic arithmeatic operations,using the handlebars template engine and express.... 
+
+
+11-07-2022 =======
+    understanding template engine as server side dynamic rendering, and how html creation is done using the template file and data object, and finally returning the dynamically created html file...
+    As updating the calculator web-app, in which the all css class name, html content are dynamically injected, using the hbs template engine over server-side and also the result of evaluated expression is also injected dynamically after getting response from API....
+    
+
+
+12-07-2022 =======
+    clustering concept as utilizing multiple cores and improving performance, while monitoring the latency time...
+    As implementing the assignment, for creating 6 API for bookstore..
+    1. For user signup / and validation using crypto module
+    2. Signin and on successfull authentication, returning a JWT token
+    3. Add a book with specific details, and jwt token in payload for authentication
+    4. update book, authentication done using jwt token
+    5. delete book, authentication using jwt token
+    6. get all book details as well a specific book, using id and authentication is using jwt token
+
+
+
+
+
+==============================================
+==============================================
+To be implemented.....
+    socket.io, 
+    pm2 npm , clustering , horizontal scaling , vertical scaling ,
+    mongoDb vs rdms level scaling..
+
+
+To be pushed on GIT
+    Book Store API
+    Web-app CALC
+    clustering and monitoring latency time
+    express-generator tutorials
+    various_types_of_http_request_by_updating_student_list
