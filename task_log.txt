@@ -33,17 +33,11 @@
     5. delete book, authentication using jwt token
     6. get all book details as well a specific book, using id and authentication is using jwt token
 
-
-
-
+13-07-2022 =======
+    As implementing database for the book_Store_API assignment into Mongo and mapping the specific API routes with the create, update, delete documents in the book collection of the book_Store mongo db and exploring findOne , find , insertOne , insertMany functions on the collections...  
 
 ==============================================
 ==============================================
-To be implemented.....
-    socket.io, 
-    pm2 npm , clustering , horizontal scaling , vertical scaling ,
-    mongoDb vs rdms level scaling..
-
 
 To be pushed on GIT
     Book Store API
