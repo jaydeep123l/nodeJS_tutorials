@@ -1,25 +1,19 @@
-const express = require('express')
-const router = express.Router();
-const jwt = require('jsonwebtoken')
+var Book = require('../models/book');
 
-
-
-router.get('/',(req,res,next) => {
-    console.log(`in the addBook route of the project...`)
+let getAllBooks = (req, res) => {
+    console.log('in get all book')
     let token = req.headers.authorization
     let db_obj = req.db_obj
     console.log(req.headers.authorization)
     if (token) {
-        try { 
-        console.log(db_connection_obj)
-
+        try {
             const decrypted_login_credentials = jwt.verify(token.split(' ')[1], process.env.jwt_secret_key)
 
             console.log(`token verified..`)
-            db_obj.collection('book_table').insertOne(req.body, function (err, result) {
+            db_obj.collection('book_table').find({}).toArray(function (err, result) {
                 if (err) throw err;
-                console.log("1 document inserted");
-                return res.send({ status: 200, message: "1 document inserted" })
+                console.log(result);
+                return res.send({ status: 200, bookArray: result })
             });
         } catch (error) {
             console.log(`handled by catch with ${error}`)
@@ -29,6 +23,7 @@ router.get('/',(req,res,next) => {
     } else {
         return res.send({ status: 409, message: 'token required' })
     }
-})
 
-module.exports = router;
+}
+
+module.exports = {getAllBooks}

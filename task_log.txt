@@ -36,6 +36,16 @@
 13-07-2022 =======
     As implementing database for the book_Store_API assignment into Mongo and mapping the specific API routes with the create, update, delete documents in the book collection of the book_Store mongo db and exploring findOne , find , insertOne , insertMany functions on the collections...  
 
+
+14-07-2022 =======
+    Updating the Book Store API with JWT Authorization, duplicate mail validation while user sign up and the password is saved in encrypted format in the user collection, while user sign in if login credentials are verified then return a JSON Web Token, so that user can implement CRUD operation on the book Store DB using these JSON Web token as adding bearer token in the http request....
+
+
+15-07-2022 =======
+    As assigned tak for chatbot developemnt / integration with microsoft teams using nodejs , So exploring the tools used in bot framework ecosystem i.e; emulator, composer, botkit.... and configuring the setup on my localhost...
+
+
+
 ==============================================
 ==============================================
 
@@ -43,5 +53,8 @@ To be pushed on GIT
     Book Store API
     Web-app CALC
     clustering and monitoring latency time
+    mvc pattern coding structure , ORM models mapping mongoose ... CRUD using models , react tutorials...
     express-generator tutorials
     various_types_of_http_request_by_updating_student_list
+    
+    
