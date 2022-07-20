@@ -34,8 +34,26 @@
     6. get all book details as well a specific book, using id and authentication is using jwt token
 
 
+13-07-2022 =======
+    As implementing database for the book_Store_API assignment into Mongo and mapping the specific API routes with the create, update, delete documents in the book collection of the book_Store mongo db and exploring findOne , find , insertOne , insertMany functions on the collections...  
 
 
+14-07-2022 =======
+    Updating the Book Store API with JWT Authorization, duplicate mail validation while user sign up and the password is saved in encrypted format in the user collection, while user sign in if login credentials are verified then return a JSON Web Token, so that user can implement CRUD operation on the book Store DB using these JSON Web token as adding bearer token in the http request....
+
+
+15-07-2022 =======
+    As assigned tak for chatbot developemnt / integration with microsoft teams using nodejs , So exploring the tools used in bot framework ecosystem i.e; emulator, composer, botkit.... and configuring the setup on my localhost...
+
+18-07-2022 =======
+    Working with chatbot development, as creating Authorization credentials from azure portal (i.e; registering) integrating with luis and mapping the intent returned from the LUIS as per user requirement.. 
+
+19-07-2022 =======
+    Working with chatbot development, as creating Authorization credentials from azure portal (i.e; registering) integrating with luis and mapping the intent returned from the LUIS as per user requirement.. 
+
+
+20-07-2022 ========
+    As training a weatherFInfo testing model for LUIS intents, entities, and documenting the process flow, tools used, for the task, as well integrating with teams, and further mapping the replies to  be sent over specific intents returned from LUIS, in the nodeJS Bot Server... 
 
 ==============================================
 ==============================================
