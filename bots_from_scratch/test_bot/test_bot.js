@@ -22,7 +22,13 @@ var bot = new builder.UniversalBot(connector, (session) => {
     session.beginDialog('/userCheck');
 }).set('storage', inMemoryStorage);
 
-server.post('/api/messages', connector.listen());
+let middleWareWhenBotCalled = (req,res,next) => {
+    console.log(`/api/messages bot called...`)
+    next()
+} 
+
+
+server.post('/api/messages', middleWareWhenBotCalled, connector.listen());
 
 // bot.dialog('/', function (session, args) {
 //     session.send("Hi");
@@ -42,7 +48,6 @@ bot.dialog('/userCheck', function (session, args) {
         getPassword(session);
     } else {
         // session.userData = null;
-
         session.userData = {};
     }
     session.endDialog();
