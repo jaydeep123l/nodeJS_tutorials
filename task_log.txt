@@ -55,17 +55,24 @@
 20-07-2022 ========
     As training a weatherFInfo testing model for LUIS intents, entities, and documenting the process flow, tools used, for the task, as well integrating with teams, and further mapping the replies to  be sent over specific intents returned from LUIS, in the nodeJS Bot Server... 
 
-==============================================
-==============================================
-To be implemented.....
-    socket.io, 
-    pm2 npm , clustering , horizontal scaling , vertical scaling ,
-    mongoDb vs rdms level scaling..
+
+21-07-2022 =======
+    While connecting teams with bot was facing issue, resolving it and mapping the response returned from LUIS end with specific intents and explroing LUIS API portal for training weather model with adding sentence, entities..
 
 
-To be pushed on GIT
-    Book Store API
-    Web-app CALC
-    clustering and monitoring latency time
-    express-generator tutorials
-    various_types_of_http_request_by_updating_student_list
+22-07-2022 =======
+    As training few demo models on LUIS Portal, and mapping the response for specific intents in NodeJS Bot server, exploring the Virtual HR bot , implementing the documentation
+
+25-07-2022 =======
+    As exploring the vendor allocation project, as shared by ankit rawat, 
+    resolving the chat Connector issue, faced due to botbuilder package version upgarde
+    updating the documentation, as creating bot from Azure portal instead of dev.botframework portal
+    
+
+
+
+
+
+
+==============================================
+==============================================
