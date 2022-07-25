@@ -1,0 +1,6 @@
+{
+    "DEMO_KEY":"DEMO_VALUE",
+    "MICROSOFT_APP_ID":"40126035-0c8a-4936-850b-38aa39067577",
+    "MICROSOFT_APP_PASSWORD":"bkP8Q~ylh5f~wH-BNmdHEi_F4ss7Nt67F9Msacbo",
+    "UPDATE_LUIS_URL" : "https://teamchatbotcognitiveservice.cognitiveservices.azure.com/luis/prediction/v3.0/apps/83dfc957-43da-448b-88a1-919508734887/slots/staging/predict?verbose=true&show-all-intents=true&log=true&subscription-key=0520d7c0b37342c9a3a7113d9f65d1aa&"
+}
