@@ -67,6 +67,49 @@
     As exploring the vendor allocation project, as shared by ankit rawat, 
     resolving the chat Connector issue, faced due to botbuilder package version upgarde
     updating the documentation, as creating bot from Azure portal instead of dev.botframework portal
+
+26-07-2022 ========
+    As integrating the flask API with the chatbot
+    Updating the chatbot at per the, vendor allocation project
+    And integrating the API, with the updated database instance as given
+
+27-07-2022 ========
+    implemeting chatbot using composer, and exploring triggers, dialogs, as features provided by composer 
+    exploring adaptive cards, to beautify UI response in chatbot..
+    And implemnting bot as iterating over excel records,
+
+
+28-07-2022 ========
+    Publish bot on Azure Portal,
+    Integrate with teams,
+    Resolve Flask API, Excel ValueError,
+    Add Adaptive Cards and iterate over arrays in response returned from API
+
+
+29-07-2022 ========
+    As debugging issues faced while bot publish,
+    also resolving issues faced while integrating flask API,
+    and further updating the bot as for iterating over the array returned in response..
+
+
+01-08-2022 =========
+    updating loan database, with basic loan info models
+    resuming with the teams chatbot, progress as..
+
+
+02-08-2022 ===========
+    As working with the OCR API and implementing model for aadhar_detail_table, voting_detail, cheque_detail, driving_license_detail with hasOne relationship over user table..
+    and as user can have multiple loan application so hasMany relationship over it...
+
+03-08-2022 ==========
+    As resolving the AAVAS Aadhar OCR issue, merging the updated nodejs boiler plate in aavas backend..
+    Once the API issue, getting resolved will integrate it with backend..
+
+
+04-08-2022 =========
+    As implementing the OCR API , as internally calling AAVAS API with the image and as on response , calling AAVAS Verification API and finally on successfull Verification, saving data into database..
+    and as converting image with public URL to base64 and then calling OCR API 
+    Implementing the pincode mapping subArea API, so on user input of pincode, it returns a array of mapping Area, district
     
 
 
