@@ -112,9 +112,24 @@
     Implementing the pincode mapping subArea API, so on user input of pincode, it returns a array of mapping Area, district
     
 
+05-08-2022 =========
+    as implemented the OCR API for Aadhar, implmenting the same for other identity proofs and saving into database,
+    updating the db schema, as discussed by the aavas team,
 
 
+08-08-2022 =========
+    implemented migrations and models for aavas_application tables (10-11 tables..)
+    discussed API to be implemented, s3 bucket image upload
+    implemented ER diagram for the AAVAS Application data flow
+    the structure of the Aavas project, as sequence migrations and models are called.....
+    explored sequelize package for database migrations commit and revert as similar to GIT
+    and want to explore the sequelize more in depth as BACKEND.....    
 
+
+09-08-2022 =========
+    Implementing API for OCR (Applicant_document) upload, and internally calling S3 bucket API, AAVAS API and finally destructuring the returned JSON object and populating tables in database,
+    further API for application_loan_info details,
+    and managing application progress status, by adding a object with specific fields in application model... 
 
 
 ==============================================
