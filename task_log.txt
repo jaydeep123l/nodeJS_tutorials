@@ -132,5 +132,13 @@
     and managing application progress status, by adding a object with specific fields in application model... 
 
 
+10-08-2022 =========
+    as using the node aws-sdk generated a signed URl for the image blob object uploaded over s3 bucket,
+    and as saved the aadhar Details object in databse, further implemeting the above API's for panCard, passport, driving_license,
+    And updating the corresponding API response as if any error is being faced, in the above OCR image process..
+    And as if user reuploads a specific document, then handling in database as overwrite rather then new insert due to validation constraint
+
+
+
 ==============================================
 ==============================================
