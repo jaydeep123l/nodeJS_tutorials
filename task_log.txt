@@ -137,6 +137,19 @@
     and as saved the aadhar Details object in databse, further implemeting the above API's for panCard, passport, driving_license,
     And updating the corresponding API response as if any error is being faced, in the above OCR image process..
     And as if user reuploads a specific document, then handling in database as overwrite rather then new insert due to validation constraint
+    delete unwanted folders from the AWS...
+
+
+12-08-2022 ========
+    as working on applicant details and applicant addresses API, 
+    and also returning the auto-fill data in the API response for frontend field data populating , as the data being fetched from OCR API,
+    mapping the updated csv as seeder for pincode_Area_mapping table
+    And also mapping the appilcant id from frontend request as due to foreign_key_constraint validation..
+    also returning the SUCCESS response, at the end of all process s3 upload and hitting AAVAS API and finally saving data into db..
+    pushing the updated code, changes as being told..
+
+
+
 
 
 
