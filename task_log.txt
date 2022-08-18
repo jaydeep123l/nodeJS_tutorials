@@ -142,11 +142,40 @@
 
 12-08-2022 ========
     as working on applicant details and applicant addresses API, 
-    and also returning the auto-fill data in the API response for frontend field data populating , as the data being fetched from OCR API,
+    and also returning the auto-fill data in the API response for frontend field data populating , as the data being fetched from OCR API, as for applicant address as well..
     mapping the updated csv as seeder for pincode_Area_mapping table
     And also mapping the appilcant id from frontend request as due to foreign_key_constraint validation..
     also returning the SUCCESS response, at the end of all process s3 upload and hitting AAVAS API and finally saving data into db..
     pushing the updated code, changes as being told..
+    get API for the corresponding OCR page, when existing user login..
+    push date value for the dob on  applicant_document_details model and other passport doi, doe..
+
+
+16-08-2022 ========
+    as divind the process of uploading over s3, fetching data from AAVAS OCR API in 4 steps,
+    And when the user cancels the upload, i.e; upload is being aborted 
+    add code for reverting uploaded process here,
+    take latest pull of dev branch and merge with the other code, and understanded the updated code..
+    integrated it with the frontend as developed,
+
+
+17-08-2022 ==========
+    Implemented the GET, POST API for Applicant My details
+    Implemented GET API for Applicant Addresses and POST API in progress..
+    And managed the Autofill details like Aadhar card id , pan card id, etc when new user login..
+
+
+
+18-08-2022 ==========
+    Implementing GET , POST API for Applicants Asset information,
+    POST API for applicant address in progress..
+    Handling the catch case for promise with throwing proper exception
+    And returning the Autofill details in GET API when new user login....like Aadhar card id , pan card id, etc 
+    when user uploading Applicant document images, then checking if corresponding docType already exists, for specific applicant ID then overWrite the Details in the db table..
+    Using sonar lint, for doing code optimization.. 
+
+
+    Implementing API for Applicant existing loans
 
 
 
