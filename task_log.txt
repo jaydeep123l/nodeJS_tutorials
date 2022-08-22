@@ -177,8 +177,29 @@
 
     Implementing API for Applicant existing loans
 
+19-08-2022 ========
+    
+
+20-08-2022 ========
+    worked on updating the database schema as the new fields being added,
+    if user uploads other doc, instead of a specific doc then return specific error response in API
+    and in progress the GET API for the merged data as applicant details, address, employment, banking details..
 
 
+    Resolving the issues raised by shri kishan
+
+
+22-08-2022 =========
+    working on the GET API for the Applicant_information_section (details, employment info, existing loans)..
+    As the POST API for Applicant_information_section, is causing duplicate records so debugging it..
+    As issue from DL AAVAS API is resolved from AAVAS end, so integrating it...
+    As Updating the database fields as, with the new excel file..
+    Exploring the RazorPay API..
+
+
+
+    Exploring the LEAD API
+    Understanding the Deployment process,of the website..
 
 
 
