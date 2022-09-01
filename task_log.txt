@@ -201,6 +201,37 @@
     Exploring the LEAD API
     Understanding the Deployment process,of the website..
 
+23-08-2022 =========
+
+
+24-08-2022 =========
+    Implementing models, migration for payment details,
+    integrating AAVAS payment API..
+    frontend integration, and exploring the flow...
+    using solar lint, optimizing code..
+    Adding validation, for the input fields at controller and model level...    
+
+25-08-2022 ========
+
+26-08-2022 =========
+
+29-08-2022 ==========
+
+30-08-2022 ===========
+
+31-08-2022 ===========
+
+01-09-2022 =============
+    Application progress POST API, 
+    In get FTR API , returning required documents object with doc to be uploaded..
+    Service, controller code optimiztion
+    Updating JIRA
+    Cheque OCR update check
+    debugger vscode
+    sonarlint..
+
+02-09-2022 ============
+
 
 
 ==============================================
