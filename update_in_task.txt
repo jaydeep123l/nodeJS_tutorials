@@ -1,0 +1,44 @@
+    today's status
+        - Integrated DL OCR API, as previously it was facing issue from AAVAS end..
+        - Fixed the POST API for applicant_information (applicant_details, employment_info, etc) as was populating duplicate records
+        - Worked On POST, GET API for Required_documents and OCR of cheque in progress..
+        - Work in progress for RazorPay Payment gateway, integration
+
+
+
+    today's status
+    - Completed with POST, GET, DELETE API for Applicant_required_document
+    - Using fileHash , If file is duplicate then raise error with check as docType and applicantId 
+    - Implemented Model and migration for Applicant_required_document, Payment_info
+    - Integration In progress with API for Payment_link_creation, Payment_status_check
+
+
+
+    today's status -
+    integrated payment API and created payment migration, model
+    integrated cheque OCR in required documents and 
+    POST API for uploading other required docs over s3, and managed duplicate docs using hash in database
+    handle case for document_upload when user uploads any image, rather then KYC images... using key "NO_KYC_DOCUMENT_DETECTED" returned from AAVAS end.. 
+
+
+
+    1. application progress, added
+    2. Co - applicant AutoFill Added, in API response
+    3. login check added for mobile number, has thrown "User not exists", but displaying in frontend, have a look over it
+    4. required docs Get API updated, returns a response as
+            const requiredDocuments = {
+                addressProof: true,
+                selfiePhoto: true,
+                propertyDocument: true,
+                incomeDocument: true,
+                bankingProof: true,
+                bankCheque: true,
+                udhyamRegisteredCertificate: true,
+            }
+        map frontend accordingly.
+    5. Asset details, when collateral address same as current address..
+    6. In Co-Applicant / Applicant 
+            employment address was not coming fixed it..
+    7. In main Applicant Address,
+            added key addressType as told by ankit.. 
+
