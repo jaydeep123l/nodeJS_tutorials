@@ -231,8 +231,14 @@
     sonarlint..
 
 02-09-2022 ============
+    
+04-09-2022 =============
 
-
+05-09-2022 ============
+    Updates :-
+    Added GET API for currentAddres, as for Asset details Autofill..
+    fix: cheque OCR issue , when returned empty object in OCR response..
+    
 
 ==============================================
 ==============================================
