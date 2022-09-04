@@ -21,10 +21,24 @@
     handle case for document_upload when user uploads any image, rather then KYC images... using key "NO_KYC_DOCUMENT_DETECTED" returned from AAVAS end.. 
 
 
+    #status
+    .....
+    1. application progress, added and updated on successfull response of every POST API (OCR, applicant_info, asset_details, etc)..
+    2. Applicant Info AutoFill Data Added, in GET API response like (Aadhar No, PAN No, etc) fetched from saved OCR docs data...
+    3. Fixed login check for mobile number, when mobile number does not exists..
+    4. In required documents GET API added a object for documents to be uploaded, 
+        so that frontend input field are dynamically updated, on basis of the customerType, isUserRegisteredForUdhyam etc..
+        as it allows option to upload only specific docs on basis of condition..
+        For example if customerType is non-individual then input field selfie_photo will not begin rendered.. 
+    5. Added an GET API for current Address, and in asset details, if collateralAddressSameAsCurrentAddress is yes then return currentAddress Object so  
+        that can be autofilled in frontend, 
+        and accordingly updated the Asset Object on POST API hit...
 
-    1. application progress, added
-    2. Co - applicant AutoFill Added, in API response
-    3. login check added for mobile number, has thrown "User not exists", but displaying in frontend, have a look over it
+
+    Added an GET API for current Address, and in asset details, if collateralAddressSameAsCurrentAddress is yes then return currentAddress Object so that can be autofilled in frontend, 
+    and accordingly updated the Asset Object on POST API hit...
+
+ 
     4. required docs Get API updated, returns a response as
             const requiredDocuments = {
                 addressProof: true,
@@ -32,7 +46,7 @@
                 propertyDocument: true,
                 incomeDocument: true,
                 bankingProof: true,
-                bankCheque: true,
+                bankCheque: true,       
                 udhyamRegisteredCertificate: true,
             }
         map frontend accordingly.
@@ -41,4 +55,6 @@
             employment address was not coming fixed it..
     7. In main Applicant Address,
             added key addressType as told by ankit.. 
+    8. JIRA Update..
+    
 
