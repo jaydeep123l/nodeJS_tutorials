@@ -50,11 +50,16 @@
                 udhyamRegisteredCertificate: true,
             }
         map frontend accordingly.
+
+
+        
     5. Asset details, when collateral address same as current address..
     6. In Co-Applicant / Applicant 
             employment address was not coming fixed it..
     7. In main Applicant Address,
             added key addressType as told by ankit.. 
     8. JIRA Update..
-    
+    9. error object to harsih
+    10. issue fix for application progress
+    11. hanlde cheuqe OCR for different share
 
