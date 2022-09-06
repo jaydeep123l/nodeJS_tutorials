@@ -49,7 +49,7 @@
                 bankCheque: true,       
                 udhyamRegisteredCertificate: true,
             }
-        map frontend accordingly.
+        map frontend accordingly.   
 
 
         
@@ -63,3 +63,44 @@
     10. issue fix for application progress
     11. hanlde cheuqe OCR for different share
 
+    login 404
+    reuired documents, rsponse structure
+    JIRA
+    learn server Deployment
+    git commit personal             
+    log4js
+
+    createLoanApplication API
+    Lead API
+    API for applicant and co-applicant from AAVAS end in progress..
+    firstName, lastName, pan, pincode, requestedLoanAmount, product, scheme, typeOfClient
+    loan status
+    lastname, middlename in appicant mydetails...
+
+
+    http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8084/aavas-los-eapi/loan-application?mobileNumber=1234567892
+    http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8084/aavas-los-eapi/case/status?mobileNumber=9985818565&loanApplicationNumber=KP123
+    http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8084/aavas-los-eapi/lead/status?firstName=Priya&lastName=chunduri&mobileNumber=9988776655&middleName=Krishna
+    http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8084/aavas-los-eapi/loan-application?mobileNumber=1234567892
+
+    Jira updates...
+    database-schema creation for the loan_application
+        OCR for applicant_document_details, upload docs over s3 and saving the OCR data response, into the database
+        Application basic_loan_info, GET POST API for the application_info model
+        Applicant_my_details GET, POST API
+        Applicant_employment GET, POST API
+        Applicant_address GET, POST API
+        Applicant_banking_details 
+        Asset_details
+
+
+    1. OCR docs, requiredDocuments on upload of all mandatory docs, updating the progress object in database
+    2. lastName, middleName trimming in applicant controller, one key add in asset details get API as told by ankit
+    3. Jira Update
+    4.  service / controller code optimization OCR doc upload
+    5. create loan application API hit
+    6. don't upload back side of aadhar..
+    7 applicantId
+    8. return cheeque object in ocr..
+    9. different co-applicant details, is being fetched from other, phoneNumber login....
+    
