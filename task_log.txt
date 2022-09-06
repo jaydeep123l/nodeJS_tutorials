@@ -238,7 +238,12 @@
     Updates :-
     Added GET API for currentAddres, as for Asset details Autofill..
     fix: cheque OCR issue , when returned empty object in OCR response..
-    
+    integrating the Lead, status and other API provided by, AAVAS..
+    fixing application progress issue as being updated on upload of every doc, instead should update on upload of all docs.., 
+    cheque issue, to be shared..
+
+06-09-2022 =========
+
 
 ==============================================
 ==============================================
