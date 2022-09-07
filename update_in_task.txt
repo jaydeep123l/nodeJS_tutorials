@@ -110,3 +110,9 @@
         - application_progress for isRequiredDocuementUploaded will be updated true, only on successfull upload of all mandatory required docs for the specific     applicant...
         - dynamically on based on user data, requiredDocs to be uploaded is returned..
             For eg, if selected product is purchase, then electricity bill is to be uploaded mandatory.. 
+    Space in input field..
+    add enum, is status message..
+    cheque update when duplicate entry...
+    requiredDocs null for first time user....
+    dupplicate fomr 60 entry..
+    
