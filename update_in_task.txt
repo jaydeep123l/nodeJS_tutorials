@@ -98,9 +98,15 @@
     2. lastName, middleName trimming in applicant controller, one key add in asset details get API as told by ankit
     3. Jira Update
     4.  service / controller code optimization OCR doc upload
-    5. create loan application API hit
+    5. create loan application API hit  
     6. don't upload back side of aadhar..
     7 applicantId
     8. return cheeque object in ocr..
     9. different co-applicant details, is being fetched from other, phoneNumber login....
-    
+
+
+    today's update:-
+        - if user, does not upload pan,aadhar on OCR page, then it should be mandatory uploaded on required documents page..
+        - application_progress for isRequiredDocuementUploaded will be updated true, only on successfull upload of all mandatory required docs for the specific     applicant...
+        - dynamically on based on user data, requiredDocs to be uploaded is returned..
+            For eg, if selected product is purchase, then electricity bill is to be uploaded mandatory.. 
