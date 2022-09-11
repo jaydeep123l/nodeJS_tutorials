@@ -106,7 +106,7 @@
 
 
     today's update:-
-        - if user, does not upload pan,aadhar on OCR page, then it should be mandatory uploaded on required documents page..
+        - if user, does not upload pan,aadhar on OCR page,   it should be mandatory uploaded on required documents page..
         - application_progress for isRequiredDocuementUploaded will be updated true, only on successfull upload of all mandatory required docs for the specific     applicant...
         - dynamically on based on user data, requiredDocs to be uploaded is returned..
             For eg, if selected product is purchase, then electricity bill is to be uploaded mandatory.. 
@@ -115,4 +115,28 @@
     cheque update when duplicate entry...
     requiredDocs null for first time user....
     dupplicate fomr 60 entry..
-    
+
+    edit co-applicant data, is mismatching
+    cooapplicant deleteting not
+    one by one, applicant not deletable..
+
+    aadahr back upload
+    aankit dynamic, label
+ 
+    OCR data cheque, handle update case..
+    different API call for Required docs..
+    banking proff, double entry uploaded.
+    handle for aadarsh aadhar case.
+    backend Node Debuger..
+
+
+    API CALL
+    status
+    ...
+    redirect_API..
+    lastName firstName
+    .
+    jira update..
+
+
+
