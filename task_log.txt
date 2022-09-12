@@ -244,6 +244,18 @@
 
 06-09-2022 =========
 
+10-09-2022 =========
+    Weekend Status :-
+    1. Integrated Aadhaar OCR Address API, user can upload aadhar back page and address will be saved from OCR details....
+    2. On Cheque OCR successfull post response, returned the OCR details of the cheque for banking details popup..
+    3. In required docs, added a label field which describes a brief about the doc to be uploaded 
+        For example :- if product is purchase, then in property document upload , label would be latest title document / site plan returned in API response..
+
+12-09-2022 ========
+    1. Handle aadhar, exception case 
+    2. Cheque Update when post twice, add OCR details in post successfull response..
+    3. GET FTR API, don't use database instead API processing as only one source data, to be saved into DB and further processing over it..
+    
 
 ==============================================
 ==============================================

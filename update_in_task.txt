@@ -127,7 +127,10 @@
     different API call for Required docs..
     banking proff, double entry uploaded.
     handle for aadarsh aadhar case.
-    backend Node Debuger..
+    backend Node Debuger..  
+    check update , case for all newly added features.....
+    handle aadhar back upload i application progres..
+
 
 
     API CALL
