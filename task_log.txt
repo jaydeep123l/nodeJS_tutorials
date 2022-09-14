@@ -274,8 +274,12 @@
     10. banking proff, double entry uploaded.
     11. controller, service optimization..
     12. Node features, exploration..
+    13. isColletralAddressDisplayField
+    14. isPropertyIdentified
+    15. add aadhar address in current address..
 
 15-05-2022 ============
+    
 
 ==============================================
 ==============================================
