@@ -252,10 +252,30 @@
         For example :- if product is purchase, then in property document upload , label would be latest title document / site plan returned in API response..
 
 12-09-2022 ========
-    1. Handle aadhar, exception case 
+    1. Handle aadhar OCR, exception case when user uploads 
     2. Cheque Update when post twice, add OCR details in post successfull response..
     3. GET FTR API, don't use database instead API processing as only one source data, to be saved into DB and further processing over it..
-    
+
+13-09-2022 =========
+    1. Update, POST API for updating banking details of applicant
+    2. In FTR GET API, on basics of product condition updating the label to be displayed in frontend, and sending in API response.. 
+    3. Handling exception aadhar upload case, when user uploads full image of Aadhar which consists of top as address and bottom as personal details.. 
+
+14-05-2022 ==========
+    1. POST API, for creating and updating banking details, 
+    2. Add aadhar_address, in the current address API
+    3. Adding column in OCR Docs, so that will fetching details, it can be identified wheather the doc is uploaded from OCR or requiredDocs..
+    4. updateApplicationProgress check as updating, on uplad of all reuired Docs
+    5. While uploading aadhar back, on OCR docs raise specific error..
+    6. Overide OCR card, on update..
+    7. backend Node Debuger.. 
+    8. handle for aadarsh aadhar case.
+    9. check updateApplicationProgress , case for all newly added features.....
+    10. banking proff, double entry uploaded.
+    11. controller, service optimization..
+    12. Node features, exploration..
+
+15-05-2022 ============
 
 ==============================================
 ==============================================

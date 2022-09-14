@@ -131,7 +131,7 @@
     check update , case for all newly added features.....
     handle aadhar back upload i application progres..
 
-
+    check the required docs, green tick..
 
     API CALL
     status
@@ -140,6 +140,27 @@
     lastName firstName
     .
     jira update..
+    defaultVAue in JSOB...
+    remove console to legger in twhole..
+
+
+    update OCR card, override....
+    proposed area of construction for P+C , cons
+    check for driving license 
+    aadhar front back resolve..
+    gender from OCR..
+    error message toaster in hind3i
+    required loan amount..
+
+    update current address, 
+    update banking details..
+    asset details
+    translation
+    reuiredDocs add column in table...
+
+    
+
+
 
 
 
