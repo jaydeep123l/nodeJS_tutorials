@@ -181,6 +181,22 @@ Need Discussion, as dependeny over Aavas OCR API --  15. Passport Delete is not 
 
 
 
+This is the status, over the above mentioned bug's update :--
+
+Resolved -- 1. First Name, Middle Name, Last Name, Father name, Mother Name , Spouse Name, DOB and Gender should fetch from OCR as per Excel(Some fields not getting)
+Need Discussion -- 2. Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
+Resolved -- 3. For Error toaster>> Error should be hindi translated
+
+Need Dicussion -- 5. Fee Payment>> Wrong payment amount showing issue.
+
+Resolved -- 8. Without saving OCR and refresh the page then it redirect to basic info page
+Resolved -- 9. Applicant info>> Current address should come from OCR (Address comming but issue some required fields not filled) 
+
+Need Discussion as AAVAS OCR API is failing -- 12 , 11, 15  OCR page given ‘Request Failed With Status Code 500’ error
+Resolved --  Require Doc>> Required loan amount(less than 7.5 lac) and product is purchase the current address field not shows ( )
+
+
+
 01. Resoling at my end.. @adarsh
 02. @co-ordinated with issue
 03. Resolved, updated in status message..
