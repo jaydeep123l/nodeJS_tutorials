@@ -161,6 +161,44 @@
     
 
 
+This is the status, over the bug's update :--
+
+Resolved -- 1. First Name, Middle Name, Last Name, Father name, Mother Name , Spouse Name, DOB and Gender should fetch from OCR as per Excel(Some fields not getting)
+2. Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
+3. For Error toaster>> Error should be hindi translated
+4.  Applicant Info>> Edit the employment info and Save. Then some fields shows blank .(check for co-applicant and applicant as well )
+5. Fee Payment>> Wrong payment amount showing issue.
+6. Basic Info>> Email id should not show pre field 
+7. Applicant info>> Create one co-applicant and save . After that create another and save. Both savedinfo exchanged.
+8. Without saving OCR and refresh the page then it redirect to basic info page
+9. Applicant info>> Current address should come from OCR (Address comming but issue some required fields not filled) 
+10. Is the Collateral Property Address same as current address/permanent address>> for For LAP/MSME/R&R Product(Issue in case of edit the applicant and issue due to  point no. 4 on edit)
+11. Passport Delete is not working for FTR.
+12. OCR page given ‘Request Failed With Status Code 500’ error
+13. Require Doc>> Required loan amount(less than 7.5 lac) and product is purchase the current address field not shows ( )
+Need  14. At Application status page>> Given something went wrong error.
+Need Discussion, as dependeny over Aavas OCR API --  15. Passport Delete is not working for FTR. 
 
 
 
+01. Resoling at my end.. @adarsh
+02. @co-ordinated with issue
+03. Resolved, updated in status message..
+04. yogesh..
+05. Resolving at my end..
+06. Resolved and co-ordinated with @adarsh for the same
+07. yogesh
+08. Issue Resolved, and explained to @Shri
+09. As aaavas API, is raising issue and there is dependency, so co-ordinated with @adarsh 
+10. Co-ordinated with @shri, issue was not reproducable..
+11. Duplicated issue, please look over it @SHri 15
+12. Aavas API is being failed, so coordinating with adarsh for API fail handling
+13. Resolved And explained to @Shri
+14. 
+15. Its because frontend key issue, have co-ordinated with @harish
+
+
+Adarsh, 6:00 PM
+http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/payment-link
+http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/payment-link/status?paymentId={razorpayPaymentId}
+http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/ocr
