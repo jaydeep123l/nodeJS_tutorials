@@ -261,7 +261,7 @@
     2. In FTR GET API, on basics of product condition updating the label to be displayed in frontend, and sending in API response.. 
     3. Handling exception aadhar upload case, when user uploads full image of Aadhar which consists of top as address and bottom as personal details.. 
 
-14-05-2022 ==========
+14-09-2022 ==========
     1. POST API, for creating and updating banking details, 
     2. Add aadhar_address, in the current address API
     3. Adding column in OCR Docs, so that will fetching details, it can be identified wheather the doc is uploaded from OCR or requiredDocs..
@@ -278,8 +278,62 @@
     14. isPropertyIdentified
     15. add aadhar address in current address..
 
-15-05-2022 ============
+15-09-2022 ============
+
+16-09-2022 ============
+
+19-09-2022 ============
+
+20-09-2022 ============
+    banking details, duplicate record handling...
+    Updating fee payment, with the Redirect URL..
+    post disbursemnt, as new changes..
+
+++++++++++++++++++++++++++++++++++++++++
+    Live issue resolved , over AAVAS END while demo -- 21 / 09 / 2022
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++
+
+
+21-09-2022 ===========
+    5. Basic Info/ Applicant info>> Email id should not show pre field
+
     
+    2. For Error toaster>> Error should be hindi translated (done from backend)
+
+    6. Require Doc>> Required loan amount(less than 7.5 lac) and except product is purchase . For other  current address field not shows (Backend)
+    7. Customer Type>> Non- Individual>> Income doc field shoul not show
+    8.  Is the Collateral Property Address same as current address/permanent address>> for For LAP/MSME/R&R Product(Issue in case of edit the applicant and issue due to  point no. 3 on edit))
+
+    10. Update hindi translation...
+
+    1. Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
+    2. For Error toaster>> Error should be hindi translated (done from backend)
+    3.  Applicant Info/ Basic details/ Assest details>>Save and come back Then some fields shows blank .(check for co-applicant and applicant as well )
+    4. Fee Payment>> Wrong payment amount showing issue.
+    5. Done -- Basic Info/ Applicant info>> Email id should not show pre field
+    6. Done -- Require Doc>> Required loan amount(less than 7.5 lac) and except product is purchase . For other  current address field not shows (Backend)
+    7. Done -- Customer Type>> Non- Individual>> Income doc field shoul not show
+    8.  Is the Collateral Property Address same as current address/permanent address>> for For LAP/MSME/R&R Product(Issue in case of edit the applicant and issue due to  point no. 3 on edit))
+    9. Applicant info>> Create one co-applicant and save . After that create another and save. Both savedinfo exchanged.
+    10. Duplicate ID being creaated- BAckend .. Asset Details delete is not working.
+    11. Harish -- FTR>> Driving License and Form 60 still mandatory field
+    12. Yogesh - From lead>> Pincode should come from lead and fill in current address.
+
+
+26-09-2022 ===========
+    Integrating the AAVAS document Upload API,
+    structuring the payload for above, and mapping it accordingly for applicant, co-applicant
+    Post-disbursemnt, GET API and formatting the response, as per frontend requirement..
+    Implementing Post-disbursement, post API for task as below :-
+        1..uploading the array of documents over s3
+        2. Saving the s3 URL in the intermediate server database
+        3. Hitting the AAVAS - POST upload document API, with the formatted payload....
+
+
 
 ==============================================
 ==============================================
