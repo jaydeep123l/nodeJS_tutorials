@@ -181,13 +181,11 @@ Need Discussion, as dependeny over Aavas OCR API --  15. Passport Delete is not 
 
 
 
-This is the status, over the above mentioned bug's update :--
+Today's status, over the above mentioned bug's update :--
 
 Resolved -- 1. First Name, Middle Name, Last Name, Father name, Mother Name , Spouse Name, DOB and Gender should fetch from OCR as per Excel(Some fields not getting)
-Need Discussion -- 2. Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
+Need Discussion -- 2, 5 Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
 Resolved -- 3. For Error toaster>> Error should be hindi translated
-
-Need Dicussion -- 5. Fee Payment>> Wrong payment amount showing issue.
 
 Resolved -- 8. Without saving OCR and refresh the page then it redirect to basic info page
 Resolved -- 9. Applicant info>> Current address should come from OCR (Address comming but issue some required fields not filled) 
@@ -214,7 +212,25 @@ Resolved --  Require Doc>> Required loan amount(less than 7.5 lac) and product i
 15. Its because frontend key issue, have co-ordinated with @harish
 
 
+1. Add 4 parameter for hindi translation...
+
+
 Adarsh, 6:00 PM
 http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/payment-link
 http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/payment-link/status?paymentId={razorpayPaymentId}
 http://uat-mulesoft-lb-2112851772.ap-south-1.elb.amazonaws.com:8083/aavas-los-eapi/ocr
+
+
+@Jaydeep Sir Please check remaining issues:
+1. Fee Payment>>Click on 'Pay now' but cancel the payment after that 'Pay Now' not shows enabled
+2. For Error toaster>> Error should be hindi translated—ready to test
+3.  Applicant Info>> Edit the employment info and Save. Then some fields shows blank .(check for co-applicant and applicant as well )
+4. Fee Payment>> Wrong payment amount showing issue.
+5. Basic Info>> Email id should not show pre field
+6. Applicant info>> Current address should come from OCR (Address comming but issue some required fields not filled)
+7. Require Doc>> Required loan amount(less than 7.5 lac) and product is purchase the current address field not shows (Backend)
+8. At Application status page>> Given something went wrong error.
+Done -- 9. Customer Type>> Non- Individual>> Income doc field should not show
+ Done -- 10.  Require Doc>> Aadhar upload>> upload Pan>> then something went wrong error.
+ 11. Added key as told by harish.. for hindi translation..
+ 
