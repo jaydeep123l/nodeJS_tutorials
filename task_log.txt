@@ -334,6 +334,17 @@
         3. Hitting the AAVAS - POST upload document API, with the formatted payload....
 
 
+27-09-2022 ===========
+    Implement the documentRequired and documentCateory, into a property file
+    Complete the POST API for the post disbursement..
+    implement all the external API url's, AWS credentials in a process.env file..
+    test the flow of the post-disbursement..
+    hindi-english translation..
+    ask issues from shri  ,
+    code optimization..
+    
+
+
 
 ==============================================
 ==============================================
