@@ -342,8 +342,28 @@
     hindi-english translation..
     ask issues from shri  ,
     code optimization..
+    replace OCR of passport, with voting card..
+
+
+29-09-2022 =======
+    add status-message one main enum and now where hard coded..
+    fileMetaData
+    docType
+    discuss s3 bucket policy with sahid sir..
+    
+30-09-2022 =======
+
+
+01-10-2022 ========
+    refactoring the applicant-document and applicant-required documents, code optimization
+    Adding OCR for voter Id 
+    And integrating the POST-Disbursement with AAVAS SalesForce Document Upload API
     
 
+02-10-2022 ========
+    
+    
+    .......
 
 
 ==============================================
