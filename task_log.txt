@@ -363,6 +363,22 @@
 02-10-2022 ========
     
     
+03-10-2022 ========
+    remove the internal API call, for get document list from intermediate database..
+    
+
+07-10-2022 =======
+    refactor required document..
+    Bug fix
+    AAVAS Application flow, understanding..
+    removing console..
+    POST disbursement, proper integration..
+    Starting with front-end && TASK IMPLEMENTATION...
+
+
+
+08-10-2022 ========
+
     .......
 
 
