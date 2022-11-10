@@ -370,6 +370,7 @@
 07-10-2022 =======
     refactor required document..
     Bug fix
+    voterId , address removal..
     AAVAS Application flow, understanding..
     removing console..
     POST disbursement, proper integration..
@@ -379,8 +380,74 @@
 
 08-10-2022 ========
 
+
+
+10-10-2022 ========
+    remove the internal API call, for get document list from intermediate database..
+
+12-10-2022 ========
+    Aadhar card upload option, coming in FTR as once uploaded...
+    will await work in for loop
+    remove all console.
+
+
+13-10-2022 =======
+    OCR data not coming in from GET API in  applicant details..
+    fee payment, GET status..
+    node debugger..
+    loan Update API failing,
+    asset detail not saving
+    asset detail pincode API not wokring..
+    check few-payment on 8084
     .......
 
+17-10-2022 ======== (WEEK INITIAL......)
+    client-side rendering..
+    react tutorials..
+    implement 2 projects in react
+    AAVAS project updates :-
+        FTR applicant document upload,
+        POST disbursement integration..
+        check above..
+        for invalid cheque
+        return array if applicant have different name fetched from OCR
+        OCR data not getting populated
+        document upload.
+        
+
+19-10-2022 ========= 
+    upload pdf for aadhar
+    Don't do OCR of pan, dl , aadhar on FTR..
+    
+
+27-09-2022 =========
+    Study pm2 
+    Jira issues
+    react tutorials
+    
+
+02-11-2022 =======
+    Cheque OCR not working..
+    swagger API docs..
+    functional comments, proper integration..
+    Update FTR Label accordingly, 
+    
+
+08-11-2022 =========
+    
+
+09-11-2022 =========
+    sonar-lint issue fix,
+    swagger API docs,
+    bank statement cheque not working,
+    payment redeference
+    FTR excel sheet, check..
+    required doc optimization,
+    applicant document details check..
+    formula decryption, 
+
+10-11-2022 =========
+    
 
 ==============================================
 ==============================================
