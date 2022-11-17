@@ -447,7 +447,20 @@
     formula decryption, 
 
 10-11-2022 =========
-    
+    required label FTR new excel file,
+    hindi translation,
+     
+14-11-2022 =========
+        
+17-11-2022 ==========
+    AXIOS Error
+    Jira Bug
+    lead Payment
+    code optimization
+    swagger
+    understand, the throwIf and base Error in depth flow of the code....
 
+18-11-2022 ==========
+    
 ==============================================
 ==============================================
