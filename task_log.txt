@@ -461,6 +461,10 @@
     understand, the throwIf and base Error in depth flow of the code....
 
 18-11-2022 ==========
+    pancard feature co-aaplicant
+    auto fill, data from lead Details..
+
+19-11-2022 ==========
     
 ==============================================
 ==============================================
