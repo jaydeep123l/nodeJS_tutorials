@@ -470,6 +470,22 @@
     firstName, lastName issue..
 
 21-11-2022 ===========
+    correct the toaster case..
+
+30-11-2022 ===========
+    jira card - 152
+    
+
+05-12-2022 =========
+    Solve Jira Issue
+    Fill November time-sheet
+    Explore backend project, in depth
+    react tutorials
+    discipline, 
+
+
+06-12-2022 ==========
+    
     
 ==============================================
 ==============================================
