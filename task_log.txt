@@ -502,6 +502,8 @@
     applicationSourceDescription update in the whole project..
     
 14-12-2022 ==============
+    at start of day, share mom and 
+    at end the update status, corresponding to the above task..
     
 
 ==============================================
