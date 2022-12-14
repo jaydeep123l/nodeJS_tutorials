@@ -485,7 +485,24 @@
 
 
 06-12-2022 ==========
+    task update
+    throw, not working in for loop
+
+
+12-12-2022 ==========
+    hindi to english error toaster..
+    time-sheet
+    mom in group..
+    jira card being fixed :- 83, 151, 168, 185, 169, 177, 191, 
+
+13-12-2022 =============
+    pdf merge aadhar back, 
+    pending document tasks
+    write article, on medium
+    applicationSourceDescription update in the whole project..
     
+14-12-2022 ==============
     
+
 ==============================================
 ==============================================
