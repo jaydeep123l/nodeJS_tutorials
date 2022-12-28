@@ -493,7 +493,7 @@
     hindi to english error toaster..
     time-sheet
     mom in group..
-    jira card being fixed :- 83, 151, 168, 185, 169, 177, 191, 
+    jira card being fixed :- 83, 151, 168, 185, 169, 177, 191, 169
 
 13-12-2022 =============
     pdf merge aadhar back, 
@@ -504,7 +504,57 @@
 14-12-2022 ==============
     at start of day, share mom and 
     at end the update status, corresponding to the above task..
-    
+    jira card 203, 204, 205, 206, 207
+    added new aavas employee key..
+    jira card 151 , 83, 152, 211, 168, 161, 114, 
 
+15-12-2022 ============
+    get co-applicant by PAN , null array return
+    basic details add 2 key,
+    mom in group,
+    add enum in property ownership, 
+    delete s3 URL, image object as well
+
+16-12-2022 ============
+
+19-12-2022 ============
+    share post-disbursement log..
+    aadhar back, same image already uploaded...
+    
+20-12-2022 ===========
+    street , state not editable
+    
+21-12-2022 ==========
+    post-disbursement upload documents text ==> Return to homepage
+    sub-sector list alphabetic
+
+22-12-2022 =========
+    jira card fix
+    shankar sir issue fix
+    UAT_2 Deployment
+    co-applicant not being deleted..
+    
+23-12-2022 =========
+    imd fee payment processed
+    cheque OCR issue
+    co-Applicant delete now working
+    OCR issue, not fixed
+    applicant payload wrong appended in 
+
+26-12-2022 =======
+    duplicate customer found
+    id not specified in update call (co-Applicant delete)
+    application source description (basic info)
+    when coming back, asking for mobile number re-verification and append the new applicant
+
+27-12-2022 ========
+    co-Applicant being appended , with no applicantId..
+
+28-12-2022 ========
+    december time list, filling
+    product recesion error
+
+29-12-2022 =========
+    
 ==============================================
 ==============================================
