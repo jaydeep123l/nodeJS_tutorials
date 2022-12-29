@@ -555,6 +555,13 @@
     product recesion error
 
 29-12-2022 =========
+    asset being appended, with-out asset id and also not ableto delete..
+    upload docs failed, on requirded docs, when change customer profile..
+    adding the otpVerifiedFlag in update LOAN Payload,
+    upload docs failed, on requirded docs, when change customer profile.
+    As in new Co-Applicant add and Delete , UAT DB not being in sync in salesForce DB, so creating wrong UPDATE LOAN Payload
+
+30-12-2022 =========
     
 ==============================================
 ==============================================
